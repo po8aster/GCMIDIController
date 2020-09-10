@@ -13,4 +13,4 @@ Requirements:
 
 -Standard Synth Mode for controlling chromatic synths on Channel 1
 
--Send MIDI out via USB
+-Send MIDI out via USB and 5 Pin
