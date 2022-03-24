@@ -22,7 +22,7 @@ Once you have the IDE installed and open, the first thing we will do is make sur
     ![image](https://user-images.githubusercontent.com/69469205/159939755-4ff138a8-8c71-4bb8-a80f-4e4f56ade881.png)
  
  * Check to make sure the Arduino Leonardo is now available.
-   * Under Tools > Board check to make sure Arduino AVR shows in the menu as shown in the first image.
+   * Under Tools > Board check to make sure Arduino AVR Boards shows in the menu as shown in the first image.
 
 ## Install the required Libraries using Library Manager:
 Before installing the code (or sketch in Arduino lingo), we need to add a few libraries that my sketch uses. I'll include links to these libraries below for credit purposes; but the easiest way to install them is using the Library Manager, which I will explain below:
@@ -48,6 +48,30 @@ To Install these libraries using Library Manager:
 * Repeat this process for all three libraries listed above.
 
 ## Download/Copy and Paste the Code:
+Now that we have our Boards and Libraries ready to go, we can start with some code! Follow the instructions below to get everything copied over:
+
+* If this is your first time using Arduino IDE, odds are you have a sketch that looks like this open by default already:
+
+  ![image](https://user-images.githubusercontent.com/69469205/159945718-b35566f2-3959-482e-b19d-0640e745fce4.png)
+
+* If so, you are ready to go. If you have another sketch showing, go ahead and open a new one by selecting File > New and you should get something like the picture above.
+* Save and name your sketch whatever you would like by selecting File > Save As. In this example I've named it MIDI_Instructions
+* Next, go ahead and erase the default sketch code so that your sketch is completely blank:
+  
+  ![image](https://user-images.githubusercontent.com/69469205/159946397-f8370afc-f682-4721-8382-4e6fb441fded.png)
+
+* In a new tab, open up the [Code](https://github.com/po8aster/GCMIDIController/tree/master/Code) section of this project to get my code.
+* The easiest way to bring the code over is just to copy and paste, which is what I will do here. But for the record you could download the sketch and load it into the IDE directly if you already know how to do that.
+* Open the latest version of my code by clicking the Filename.
+* Once the code is open, click Copy Raw Contents to copy the whole thing:
+
+  ![image](https://user-images.githubusercontent.com/69469205/159947552-3630e942-5738-4bdf-b687-213bde67ba92.png)
+
+* Now paste the code into your empty sketch:
+
+  ![image](https://user-images.githubusercontent.com/69469205/159947868-d6b882e4-913f-49f4-bafb-6555e3d35458.png)
+
+* Now save your sketch using File > Save to make sure you don't lose your work!
 
 ## Upload the Code to the Device:
 
