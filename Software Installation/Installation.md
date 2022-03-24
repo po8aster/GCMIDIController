@@ -19,12 +19,33 @@ Once you have the IDE installed and open, the first thing we will do is make sur
   * Search "Arduino AVR" in the Search Bar
   * Select the latest version from the dropdown menu and click Install (note that Install might be greyed out if you already have the latest version).
       
-      ![image](https://user-images.githubusercontent.com/69469205/159939755-4ff138a8-8c71-4bb8-a80f-4e4f56ade881.png)
+    ![image](https://user-images.githubusercontent.com/69469205/159939755-4ff138a8-8c71-4bb8-a80f-4e4f56ade881.png)
  
  * Check to make sure the Arduino Leonardo is now available.
    * Under Tools > Board check to make sure Arduino AVR shows in the menu as shown in the first image.
 
 ## Install the required Libraries using Library Manager:
+Before installing the code (or sketch in Arduino lingo), we need to add a few libraries that my sketch uses. I'll include links to these libraries below for credit purposes; but the easiest way to install them is using the Library Manager, which I will explain below:
+
+The Libraries you will need are:
+ * [MIDI Library - Francois Best](https://www.arduino.cc/reference/en/libraries/midi-library/)
+ * [USB MIDI Library - Gary Grewal](https://github.com/arduino-libraries/MIDIUSB)
+ * [Nintendo Library - NicoHood](https://github.com/NicoHood/Nintendo)
+ 
+To Install these libraries using Library Manager:
+* In the Arduino IDE, select Sketch > Include Library > Manage Libraries
+  
+  ![image](https://user-images.githubusercontent.com/69469205/159942666-6f7c19db-a972-4514-a39f-a4e47fee91e9.png)
+
+* In the Library Manager, search for the Name of the Library.
+* Scroll until you find the correct one. Use the name of the author to verify it's the same one I link above.
+  * In this example, I searched Nintendo, which has many results.
+  * But if I scroll down, I can find the Library with the exact name "Nintendo" and verify it is by NicoHood:
+    
+    ![image](https://user-images.githubusercontent.com/69469205/159943739-6929f3c5-f76d-432e-b00d-9524a1e556e4.png)
+    
+* Click Install to install the Library. Note that your screen may look slightly different than the picture above as I already have the Library installed.
+* Repeat this process for all three libraries listed above.
 
 ## Download/Copy and Paste the Code:
 
