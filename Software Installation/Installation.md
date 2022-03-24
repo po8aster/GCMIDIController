@@ -1,7 +1,7 @@
 # Software Installation Instructions
-## GC>MIDI Gamecube MIDI Controller
+## For the GC>MIDI/N64>MIDI MIDI Interfaces
 
-This guide will help with installing the software when you build your MIDI Interface, and is intended for those less familiar using Arduino IDE. If you're already familiar with the IDE, the ReadMe should have all the info you need, you might find this a bit tedious as it's meant for beginners.
+This guide will help with installing the software if you build one of these MIDI Interfaces for yourself, and is intended for those less familiar using Arduino IDE. If you're already familiar with the IDE, the ReadMe should have all the info you need. You might find this a bit tedious as it's meant for beginners.
 
 This guide is also helpful if you purchased an interface from me, but want to tweak the code yourself. I highly reccomend following the full guide in the order presented below and make sure that the device is fully functional before changing any code as that will prevent any headaches if you jump right to the "Change the Code" section.
 
