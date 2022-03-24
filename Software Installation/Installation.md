@@ -74,15 +74,27 @@ Now that we have our Boards and Libraries ready to go, we can start with some co
 * Now save your sketch using File > Save to make sure you don't lose your work!
 
 ## Upload the Code to the Device:
+Almost there! Last thing we need to do is upload our sketch:
 
-##Test!
+* In the Arduino IDE, select the Verify button that looks like a check mark
+  * You should see something that looks like the image below once it is done verifying.
+  * If any errors show up at this point, check to make sure the correct Libraries and Boards are installed. The error message will usually help to figure out what is going wrong.
 
-## Software:
-* See the [Code](https://github.com/po8aster/GCMIDIController/tree/master/Code) section to download or copy the code.
-  * If you aren't familiar with Ardunio IDE, loading sketches, and loading libraries there are lots of great tutorials out there, and I won't try to recreate that info here. But Google those terms and you should be on your way!
-* Required Libraries:
-  * [MIDI Library - Francois Best](https://www.arduino.cc/reference/en/libraries/midi-library/)
-  * [USB MIDI Library - Gary Grewal](https://github.com/arduino-libraries/MIDIUSB)
-  * [Nintendo Library - NicoHood](https://github.com/NicoHood/Nintendo)
+    ![image](https://user-images.githubusercontent.com/69469205/159948878-a1a17946-805b-432e-8d47-ca0b5c9dc355.png)
+
+* If no errors pop up, you are good to upload!
+* Make sure that the Arduino is connected to your PC using a data cable (not a power only one).
+* Now, click the Upload button that looks like a sideways arrow.
+  * If you get any errors at this point, check the connection between your board and the computer and make sure that the correct Libraries and Boards are installed. The error message will usually help point you in the right direction.
+  * If your board is connected but the IDE isn't recognizing it, sometimes closing and restarting the Arduino IDE helps fix that problem.
+  * If you get "Port is Busy" type errors, make sure to close any other software that you might have running and then try again. DAWs will often cause this error, but I've had it happen with games, modding software, and even graphics programs. So just shut off everything but the IDE if you get this error.
+
+## Test!
+You should be all set! Now test out your device and make sure it's working!
+
+Note that if a controller is not connected, the device is programmed to wait for a controller before doing anything else. So if the Drum Mode light doesn't change when you press the Mode button, it is most likely not recognizing a controller. Check the controller connections if you run into this.
+
+## Optional: Change the Name
+Once you have everything working, you can change the name of your device to show as whatever you want instead of "Arduino Leonardo". This is especially helpful if you want to use multiple MIDI interfaces with one DAW as giving them different names will prevent any confusion:
+
 * If you want to change the USB MIDI Device Name after you've got it working, there is an excellent guide [here](http://liveelectronics.musinou.net/MIDIdeviceName.php) on how to do so. I am not quite sure how to credit the creator properly, but it was extremely helpful for me.
-
