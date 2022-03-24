@@ -3,6 +3,8 @@
 
 This guide will help with installing the software if you build one of these MIDI Interfaces for yourself, and is intended for those less familiar using Arduino IDE. If you're already familiar with the IDE, the ReadMe should have all the info you need. You might find this a bit tedious as it's meant for beginners.
 
+All images use the GC>MIDI sketch as an example, but the steps are exactly the same for the N64>MIDI.
+
 This guide is also helpful if you purchased an interface from me, but want to tweak the code yourself. I highly reccomend following the full guide in the order presented below and make sure that the device is fully functional before changing any code as that will prevent any headaches if you jump right to the "Change the Code" section.
 
 ## Install the Arduino IDE:
@@ -62,7 +64,9 @@ Now that we have our Boards and Libraries ready to go, we can start with some co
   
   ![image](https://user-images.githubusercontent.com/69469205/159946397-f8370afc-f682-4721-8382-4e6fb441fded.png)
 
-* In a new tab, open up the [Code](https://github.com/po8aster/GCMIDIController/tree/master/Code) section of this project to get my code.
+* In a new tab, open up the Code for whichever interface you are programming. Make sure you copy the right code for your controller or it won't work! 
+  * [GC>MIDI](https://github.com/po8aster/GCMIDIController/tree/master/Code)
+  * [N64>MIDI](https://github.com/po8aster/N64MIDIController/tree/master/Code)
 * The easiest way to bring the code over is just to copy and paste, which is what I will do here. But for the record you could download the sketch and load it into the IDE directly if you already know how to do that.
 * Open the latest version of my code by clicking the Filename.
 * Once the code is open, click Copy Raw Contents to copy the whole thing:
