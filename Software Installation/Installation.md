@@ -15,7 +15,7 @@ You can use this link, or just Google "Install Arduino IDE" if this link ends up
 ## Install the Arduino Leonardo board using Boards Manager:
 Once you have the IDE installed and open, the first thing we will do is make sure the Arduino Leonardo board support is installed. Note that you can use other boards if you know what you're doing; but since this guide is intended for beginners I will assume you are using the same Leonardo/Pro-Micro board that I use.
 
-In the images below you will see a custom named board called Arduino Leonardo - N64. Your board will have a different name when you go through this. At the very end of the guide we will get into custom board naming, so don't worry if what you see doesn't match exactly.
+In the images below you will see a custom named board called Arduino Leonardo - N64. Your board will have a different name when you go through this. At the very end of the guide we will get into custom board naming, so don't worry if what you see doesn't match exactly. The code you see in the background probably won't match either and that is perfectly fine.
 
 * In the Arduino IDE, open Tools > Board > Boards Manager
   
