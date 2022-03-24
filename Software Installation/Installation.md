@@ -3,6 +3,8 @@
 
 This guide will help with installing the software when you build your MIDI Interface, and is intended for those less familiar using Arduino IDE. If you're already familiar with the IDE, the ReadMe should have all the info you need, you might find this a bit tedious as it's meant for beginners.
 
+This guide is also helpful if you purchased an interface from me, but want to tweak the code yourself. I highly reccomend following the full guide in the order presented below and make sure that the device is fully functional before changing any code as that will prevent any headaches if you jump right to the "Change the Code" section.
+
 ## Install the Arduino IDE:
 This step should be pretty straightforward, and there are lots of guides out there if you get stuck. So I will simply say to install the Arduino IDE.
 
@@ -94,7 +96,18 @@ You should be all set! Now test out your device and make sure it's working!
 
 Note that if a controller is not connected, the device is programmed to wait for a controller before doing anything else. So if the Drum Mode light doesn't change when you press the Mode button, it is most likely not recognizing a controller. Check the controller connections if you run into this.
 
-## Optional: Change the Name
-Once you have everything working, you can change the name of your device to show as whatever you want instead of "Arduino Leonardo". This is especially helpful if you want to use multiple MIDI interfaces with one DAW as giving them different names will prevent any confusion:
+## Optional: Change the Code
+Before changing the code, make sure your device works! That will rule out hardware/library/etc issues if your code runs into any errors. And if you're anything like me errors are almost certainly going to happen at some point. So please save yourself a headache and test everything with my code before you change anything!
 
-* If you want to change the USB MIDI Device Name after you've got it working, there is an excellent guide [here](http://liveelectronics.musinou.net/MIDIdeviceName.php) on how to do so. I am not quite sure how to credit the creator properly, but it was extremely helpful for me.
+Once you've tested it out, now you can change the sketch to your liking! I've tried to make this process easy by putting all the configuration settings at the beginning of the code with lots of good descriptions to tell you what those settings do and how to change them, so you should be able to tweak a whole lot even if you don't know a thing about code or programming.
+
+If you scroll down past the configuration settings you can absolutely reprogram the funtions themselves but I don't reccomend doing this unless you have experience with coding. 
+
+And if you do have experience coding don't laugh to hard at how bad my code is. It works, okay?
+
+## Optional: Change the Device Name
+Once you have everything working how you want, you can change the name of your device to show as whatever you want instead of "Arduino Leonardo". This is especially helpful if you want to use multiple MIDI interfaces with one DAW as giving them different names will prevent any confusion.
+
+You can get some really weird errors when doing this, so I can't emphasize enough that you should make sure everything else is working correctly before trying to change the name!
+
+If you want to change the USB MIDI Device Name after you've got it working, there is an excellent guide [here](http://liveelectronics.musinou.net/MIDIdeviceName.php) on how to do so. I am not quite sure how to credit the creator properly, but it was extremely helpful for me!
